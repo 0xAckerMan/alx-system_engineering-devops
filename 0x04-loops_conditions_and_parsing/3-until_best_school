@@ -2,7 +2,7 @@
 # Until loop implementation in bash
 
 counter=0
-until [ $counter -gt 10 ]
+until [ $counter -eq 10 ]
 do
     echo "Best School"
     (( counter++ ))
