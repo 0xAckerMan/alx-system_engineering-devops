@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# using while loops to print a string 10 times
+
+counter=1
+while [[ $counter -le 10 ]]
+do
+    echo "best school"
+    ((counter++))
+done
