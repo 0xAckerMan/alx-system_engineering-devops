@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# prints a string every 2 seconds
+
+condition=1
+while [[ condition -eq 1 ]]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
