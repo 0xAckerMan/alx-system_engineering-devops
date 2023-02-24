@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Display the bash process without using ps
+
+pgrep bash 
