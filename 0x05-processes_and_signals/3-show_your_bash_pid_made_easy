@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Display the bash process without using ps
-#+ processes whose name contains the word "bash".
+#display PID of your bash
 
-pgrep -1 bash
+pgrep -l bash
