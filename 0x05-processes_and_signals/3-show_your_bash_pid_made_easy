@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # Display the bash process without using ps
+#+ processes whose name contains the word "bash".
 
-pgrep bash -i
+pgrep bash
