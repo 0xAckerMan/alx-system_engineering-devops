@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# listens to all sockets
+sudo netstat -tnlp
