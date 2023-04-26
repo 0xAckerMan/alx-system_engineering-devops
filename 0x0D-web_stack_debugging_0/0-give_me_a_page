@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 # run apache on the docker container
 
-apt update
-apt install apache2
 echo "Hello Holberton" >> /etc/apache2.conf
 service apache2 start
