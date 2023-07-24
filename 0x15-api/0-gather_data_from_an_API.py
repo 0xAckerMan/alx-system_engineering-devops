@@ -15,6 +15,7 @@ if __name__ == "__main__":
     todos_response = requests.get(
             "https://jsonplaceholder.typicode.com/todos/"
             )
+
     employee_name = user_response.json().get('name')
     completed_tasks = 0
     total_tasks = 0
