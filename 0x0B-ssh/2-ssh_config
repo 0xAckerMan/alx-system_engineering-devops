@@ -1,6 +1,0 @@
-#ssh config file
-
-Host 100.26.236.98
-  User ubuntu
-  PasswordAuthentication no
-  IdentityFile ~/.ssh/school
